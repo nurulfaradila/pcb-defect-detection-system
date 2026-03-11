@@ -42,10 +42,12 @@ This project is built using a decoupled, microservices-oriented architecture:
 
 ## 🛠️ Technology Stack
 
+The **PCB Defect Detection System** uses a modern, decoupled tech stack designed for high-performance machine learning inference and asynchronous task processing.
+
 | Layer | Technologies Used |
 | :--- | :--- |
-| **Model / ML** | YOLOv8 (Ultralytics), PyTorch |
-| **Backend API** | FastAPI, Pydantic, SQLAlchemy |
+| **Model / ML** | YOLOv8 (Ultralytics), PyTorch, OpenCV |
+| **Backend API** | FastAPI, Pydantic, SQLAlchemy, Alembic |
 | **Task Queue** | Celery, RabbitMQ |
 | **Database** | PostgreSQL |
 | **Frontend** | Streamlit |
